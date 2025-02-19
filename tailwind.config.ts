@@ -11,6 +11,12 @@ export default {
       colors: {
         'main-colour': '#00ff00',
         'support-colour': '#a0522d',
+        'dark': '#111',
+        'light': '#fffcfa',
+        'grey-dark': '#333',
+        'grey-medium': '#999',
+        'grey-light': '#ccc',
+        'grey-light-extra': '#eee'
         background: 'var(--background)',
         foreground: 'var(--foreground)',
       },
