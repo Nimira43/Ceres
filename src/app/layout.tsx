@@ -8,7 +8,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "NatuFoods",
+  title: "Ceres",
   description: "Natural organic food website using Next JS 15 and Supabase",
 }
 
