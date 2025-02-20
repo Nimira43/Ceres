@@ -1,4 +1,5 @@
 import ButtonSpecials from '@/components/buttons/buttonSpecials'
+import { Button } from '@/components/ui/button'
 
 export default function page() {
   return (
@@ -9,6 +10,7 @@ export default function page() {
         <ButtonSpecials variant="secondary">Register</ButtonSpecials>
         <ButtonSpecials variant="accent">Submit</ButtonSpecials>
         <ButtonSpecials variant="disabled" disabled>Edit Profile</ButtonSpecials>
+        <Button>Shadcn</Button>
       </div>
     </div>      
   )
