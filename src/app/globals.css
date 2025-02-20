@@ -4,14 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  font-weight: 300;
-}
-
-.logo {
-  font-family: 'Great Vibes', cursive;
-}
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -75,5 +67,15 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer base {
+  * {
+    @apply font-light;
+  }
+
+  .logo {
+    @apply font-great-vibes;
   }
 }
