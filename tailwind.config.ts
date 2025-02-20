@@ -9,18 +9,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        'main-dark': '#006400',
-        'main': '#10d510',
+        'main-dark': '#004d00',
+        'main': '#0bb80b',
         'main-light': '#a3f1a3',
-        'support': '#a0522d',
+        'support': '#4169e1',
+        'accent': '#ffd700',
         'dark': '#111',
         'light': '#fefffe',
         'grey-dark': '#333',
         'grey-medium': '#999',
         'grey-light': '#ccc',
         'grey-light-extra': '#eee',
-        background: 'var(--background)',
-        foreground: 'var(--foreground)',
       },
     },
   },
