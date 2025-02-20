@@ -9,11 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'main': '#006400',
-        'main-light': '#00ff00',
+        'main-dark': '#006400',
+        'main': '#10d510',
+        'main-light': '#a3f1a3',
         'support': '#a0522d',
         'dark': '#111',
-        'light': '#fffcfa',
+        'light': '#fefffe',
         'grey-dark': '#333',
         'grey-medium': '#999',
         'grey-light': '#ccc',
