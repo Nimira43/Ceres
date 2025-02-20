@@ -11,21 +11,22 @@ export default {
   	extend: {
   		colors: {
   			'main-dark': '#004d00',
-  			main: '#0bb80b',
+  			'main': '#0bb80b',
   			'main-light': '#a3f1a3',
   			'support-dark': '#3150ab',
-  			support: '#4169e1',
-  			'accent-dark': '#c4a704',
-  			accent: {
-  				DEFAULT: 'hsl(var(--accent))',
-  				foreground: 'hsl(var(--accent-foreground))'
-  			},
-  			dark: '#111',
-  			light: '#fefffe',
+  			'support': '#4169e1',
+				'gold-dark': '#c4a704',
+				'gold': '#ffd700',
+  			'dark': '#111',
+  			'light': '#fefffe',
   			'grey-dark': '#333',
   			'grey-medium': '#999',
   			'grey-light': '#ccc',
   			'grey-light-extra': '#eee',
+				accent: {
+  				DEFAULT: 'hsl(var(--accent))',
+  				foreground: 'hsl(var(--accent-foreground))'
+  			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
