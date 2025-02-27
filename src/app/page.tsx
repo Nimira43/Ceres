@@ -19,8 +19,8 @@ function HomePage() {
   return (
     <div>
       <div className='lg:px-20 px-5 py-10 bg-gold-light'>
-        <div className='flex justify-between '>
-          <h1 className='font-bold text-3xl text-primary logo'>Ceres</h1>
+        <div className='flex justify-between items-center'>
+          <h1 className='font-bold text-4xl text-primary logo'>Ceres</h1>
           <div className='flex gap-5 items-center'>
             {menuItems.map((item, index) => (
               <div
