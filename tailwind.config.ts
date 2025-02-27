@@ -71,7 +71,7 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
 			},
 			fontFamily: {
-				'great-vibes': ['"Great Vibes"', 'cursive'],
+				'logo': ['"Bonheur Royale"', 'cursive'],
 			}
   	}
   },
