@@ -1,4 +1,19 @@
 function HomePage() {
+  const menuItems = [
+    {
+      name: 'Home',
+      path: '/',     
+    },
+    {
+      name: 'Services',
+      path: '/',     
+    },
+    {
+      name: 'Contact',
+      path: '/',     
+    },
+  ]
+
   return (
     <div>
       <div className='lg:px-20 px-5 py-10 bg-gold-light'>
