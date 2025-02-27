@@ -17,6 +17,7 @@ export default {
   			'support': '#4169e1',
 				'gold-dark': '#c4a704',
 				'gold': '#ffd700',
+				'gold-light': '#fcfcc2',
   			'dark': '#111',
   			'light': '#fefffe',
   			'grey-dark': '#333',
