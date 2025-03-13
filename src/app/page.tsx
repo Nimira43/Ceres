@@ -38,7 +38,13 @@ function HomePage() {
             <h1 className='text-4xl font-medium text-main'>Ceres Healthly Foods</h1>
           </div>
         </div>
-        <div className='col-span-1'>Image</div>
+        <div className='col-span-1 flex justify-end'>
+          <img
+            src='./logo.png'
+            className='w-auto h-96 object-contain border-8 border-main rounded-full'
+            alt='logo'
+          />
+        </div>
 
       </div>
     </div>
