@@ -24,7 +24,7 @@ function HomePage() {
           {menuItems.map((item, index) => (
             <div
               key={index}
-              className='text-sm text-main hover:text-main-dark font-medium uppercase transition-colors duration-500 cursor-pointer'
+              className='text-sm text-main hover:text-support font-medium uppercase transition-colors duration-500 cursor-pointer'
             >
               {item.name}
             </div>
@@ -32,7 +32,13 @@ function HomePage() {
           <Button className='uppercase'>Login</Button>
         </div>
       </div>
-      <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 min-h-[70vh] items-center'>
+        <div className='col-span-1'>
+          <div>
+            <h1 className='text-4xl font-medium text-main'>Ceres Healthly Foods</h1>
+          </div>
+        </div>
+        <div className='col-span-1'>Image</div>
 
       </div>
     </div>
