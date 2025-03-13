@@ -25,7 +25,7 @@ function HomePage() {
             {menuItems.map((item, index) => (
               <div
                 key={index}
-                className='text-sm text-main font-medium uppercase'
+                className='text-sm text-main hover:text-main-dark font-medium uppercase transition-colors duration-500 cursor-pointer'
               >
                 {item.name}
               </div>
