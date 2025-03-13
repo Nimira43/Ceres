@@ -32,17 +32,17 @@ function HomePage() {
           <Button className='uppercase'>Login</Button>
         </div>
       </div>
-      <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 min-h-[70vh] items-center'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 min-h-[80vh] items-center'>
         <div className='col-span-1'>
           <div>
-            <h1 className='text-4xl font-medium text-main'>Ceres Healthly Foods</h1>
+            <h1 className='text-2xl lg:text-4xl font-medium text-main mb-2'>Ceres Healthly Foods</h1>
             <p>Discover the essence of health and flavour at Ceres. Explore our nutritious, organic food range, crafted with care to nourish your body and soul. Begin your journey to vitality today.</p>
           </div>
         </div>
         <div className='col-span-1 flex justify-end'>
           <img
             src='./logo.png'
-            className='w-auto h-96 object-contain border-8 border-main rounded-full'
+            className='w-auto h-80 object-contain border-8 border-main rounded-full'
             alt='logo'
           />
         </div>
