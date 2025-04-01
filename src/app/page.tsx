@@ -5,7 +5,7 @@ import { Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHe
 import { useState } from 'react'
 
 function HomePage() {
-  const { openSignInForm, setOpenSignInForm } = useState(false)
+  const [ openSignInForm, setOpenSignInForm ] = useState(false)
   const menuItems = [
     {
       name: 'Home',
@@ -34,7 +34,12 @@ function HomePage() {
               {item.name}
             </div>
           ))}
-          <Button className='uppercase'>Login</Button>
+          <Button
+            className='uppercase'
+            onClick={() => setOpenSignInForm(true)}
+          >
+            Login
+          </Button>
         </div>
       </div>
       <div className='mt-10 grid grid-cols-1 lg:grid-cols-2 gap-5 min-h-[80vh] items-center'>
@@ -52,24 +57,25 @@ function HomePage() {
           />
         </div>
       </div>
-      <Sheet>
+      <Sheet
+        open={openSignInForm}
+        onOpenChange={setOpenSignInForm}
+      >
         <SheetTrigger asChild>
-          <Button
-            onClick={() => setOpenSignInForm(true)}
-          >
+          <Button>
             Open
           </Button>
         </SheetTrigger>
         <SheetContent>
           <SheetHeader>
-            <SheetTitle></SheetTitle>
+            <SheetTitle>Title</SheetTitle>
             <SheetDescription>
 
             </SheetDescription>
           </SheetHeader>
           <SheetFooter>
             <SheetClose>
-              <Button></Button>
+              <Button>Hello</Button>
             </SheetClose>
           </SheetFooter>
         </SheetContent>
