@@ -1,8 +1,10 @@
 'use client'
 
 import { Button } from '@/components/ui/button'
-import { Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
+import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet'
 import { useState } from 'react'
+import { SignIn, SignUp } from '@clerk/nextjs'
+
 
 function HomePage() {
   const [ openSignInForm, setOpenSignInForm ] = useState(false)
@@ -61,18 +63,13 @@ function HomePage() {
         open={openSignInForm}
         onOpenChange={setOpenSignInForm}
       >
-        <SheetContent>
+        <SheetContent
+          className='min-w-500px'
+        
+        >
           <SheetHeader>
             <SheetTitle>Title</SheetTitle>
-            <SheetDescription>
-
-            </SheetDescription>
           </SheetHeader>
-          <SheetFooter>
-            <SheetClose asChild>
-              <Button type='submit'>Hello</Button>
-            </SheetClose>
-          </SheetFooter>
         </SheetContent>
       </Sheet>
     </div>
