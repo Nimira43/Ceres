@@ -61,11 +61,6 @@ function HomePage() {
         open={openSignInForm}
         onOpenChange={setOpenSignInForm}
       >
-        <SheetTrigger asChild>
-          <Button>
-            Open
-          </Button>
-        </SheetTrigger>
         <SheetContent>
           <SheetHeader>
             <SheetTitle>Title</SheetTitle>
