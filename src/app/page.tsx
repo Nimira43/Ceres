@@ -70,6 +70,13 @@ function HomePage() {
           <SheetHeader>
             <SheetTitle>Title</SheetTitle>
           </SheetHeader>
+          <div>
+            <SignIn
+              routing='hash'
+              signUpUrl='/?form-type=signup'
+            
+            />
+          </div>
         </SheetContent>
       </Sheet>
     </div>
