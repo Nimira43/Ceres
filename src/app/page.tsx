@@ -38,7 +38,7 @@ function HomePage() {
             className='uppercase'
             onClick={() => setOpenSignInForm(true)}
           >
-            Login
+            Sign In
           </Button>
         </div>
       </div>
@@ -74,8 +74,8 @@ function HomePage() {
             </SheetDescription>
           </SheetHeader>
           <SheetFooter>
-            <SheetClose>
-              <Button>Hello</Button>
+            <SheetClose asChild>
+              <Button type='submit'>Hello</Button>
             </SheetClose>
           </SheetFooter>
         </SheetContent>
