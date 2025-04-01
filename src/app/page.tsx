@@ -9,7 +9,8 @@ import { useSearchParams } from 'next/navigation'
 
 function HomePage() {
   const [openSignInForm, setOpenSignInForm] = useState(false)
-  const searchParams = useSearchParams
+  const searchParams = useSearchParams()
+  const formType = searchParams.get('FormType')
   const menuItems = [
     {
       name: 'Home',
