@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import { Sheet, SheetContent, SheetHeader, SheetTrigger } from '@/components/ui/sheet'
 
 function HomePage() {
   const menuItems = [
@@ -46,8 +47,15 @@ function HomePage() {
             alt='logo'
           />
         </div>
-
       </div>
+      <Sheet>
+        <SheetTrigger>
+          <Button></Button>
+        </SheetTrigger>
+        <SheetContent>
+          <SheetHeader></SheetHeader>
+        </SheetContent>
+      </Sheet>
     </div>
   )
 }
