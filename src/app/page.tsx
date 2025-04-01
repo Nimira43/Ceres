@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button'
-import { Sheet, SheetContent, SheetHeader, SheetTrigger } from '@/components/ui/sheet'
+import { Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 
 function HomePage() {
   const menuItems = [
@@ -49,11 +49,21 @@ function HomePage() {
         </div>
       </div>
       <Sheet>
-        <SheetTrigger>
-          <Button></Button>
+        <SheetTrigger asChild>
+          <Button>Open</Button>
         </SheetTrigger>
         <SheetContent>
-          <SheetHeader></SheetHeader>
+          <SheetHeader>
+            <SheetTitle></SheetTitle>
+            <SheetDescription>
+
+            </SheetDescription>
+          </SheetHeader>
+          <SheetFooter>
+            <SheetClose>
+              <Button></Button>
+            </SheetClose>
+          </SheetFooter>
         </SheetContent>
       </Sheet>
     </div>
