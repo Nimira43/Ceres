@@ -74,11 +74,17 @@ function HomePage() {
             <SheetTitle>Title</SheetTitle>
           </SheetHeader>
           <div>
-            <SignIn
-              routing='hash'
-              signUpUrl='/?form-type=signup'
-            
-            />
+            {formType === 'signup' ? (
+              <SignUp
+                routing='hash'
+                signInUrl='/?formType=signin'
+              />
+            ) : (
+              <SignIn
+                routing='hash'
+                signUpUrl='/?formType=signup'
+              />  
+            )}
           </div>
         </SheetContent>
       </Sheet>
