@@ -4,10 +4,12 @@ import { Button } from '@/components/ui/button'
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet'
 import { useState } from 'react'
 import { SignIn, SignUp } from '@clerk/nextjs'
+import { useSearchParams } from 'next/navigation'
 
 
 function HomePage() {
-  const [ openSignInForm, setOpenSignInForm ] = useState(false)
+  const [openSignInForm, setOpenSignInForm] = useState(false)
+  const searchParams = useSearchParams
   const menuItems = [
     {
       name: 'Home',
