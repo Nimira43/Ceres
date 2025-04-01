@@ -1,3 +1,5 @@
+'use client'
+
 import { Button } from '@/components/ui/button'
 import { Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 import { useState } from 'react'
@@ -52,7 +54,11 @@ function HomePage() {
       </div>
       <Sheet>
         <SheetTrigger asChild>
-          <Button>Open</Button>
+          <Button
+            onClick={() => setOpenSignInForm(true)}
+          >
+            Open
+          </Button>
         </SheetTrigger>
         <SheetContent>
           <SheetHeader>
