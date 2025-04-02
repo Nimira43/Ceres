@@ -10,7 +10,7 @@ import { useSearchParams } from 'next/navigation'
 function HomePage() {
   const [openSignInForm, setOpenSignInForm] = useState(false)
   const searchParams = useSearchParams()
-  const formType = searchParams.get('FormType')
+  const formType = searchParams.get('formType')
   const menuItems = [
     {
       name: 'Home',
@@ -68,7 +68,6 @@ function HomePage() {
       >
         <SheetContent
           className='min-w-500px'
-        
         >
           <SheetHeader>
             <SheetTitle>Title</SheetTitle>
