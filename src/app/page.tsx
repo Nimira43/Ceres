@@ -67,10 +67,10 @@ function HomePage() {
         onOpenChange={setOpenSignInForm}
       >
         <SheetContent
-          className='min-w-500px'
+          className='min-w-[500px] flex justify-center items-center'
         >
           <SheetHeader>
-            <SheetTitle>Title</SheetTitle>
+            <SheetTitle></SheetTitle>
           </SheetHeader>
           <div>
             {formType === 'signup' ? (
