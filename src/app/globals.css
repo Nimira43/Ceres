@@ -74,3 +74,19 @@
     @apply font-logo;
   }
 }
+
+
+.cl-cardBox {
+  box-shadow: none !important;
+}
+
+input {
+  height: 50px !important;
+  box-shadow: none !important;
+  border: 1px solid #999 !important;
+}
+
+input:hover,
+input:active {
+  border-color: #111 !important;
+}

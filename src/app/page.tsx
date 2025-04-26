@@ -67,7 +67,7 @@ function HomePage() {
         onOpenChange={setOpenSignInForm}
       >
         <SheetContent
-          className='min-w-[500px] flex justify-center items-center'
+          className='min-w-[500px] flex justify-center items-center bg-light'
         >
           <SheetHeader>
             <SheetTitle></SheetTitle>
