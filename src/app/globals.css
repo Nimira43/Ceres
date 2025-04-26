@@ -90,3 +90,9 @@ input:hover,
 input:active {
   border-color: #111 !important;
 }
+
+.cl-formButtonPrimary {
+  background-color: #111 !important;
+  height: 40px !important;
+}
+
