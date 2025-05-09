@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+.logo {
+  font-family: 'Bonheur Royale', serif;
+}
+
 @layer base {
   :root {
     --background: 120 100% 95%;
