@@ -11,7 +11,8 @@ async function UserShop() {
       <h1 className='font-bold text-4xl text-primary logo'>Ceres</h1>
       <UserButton />
       <div className='flex flex-col gap-2'>
-        <h1>CLerk User ID: {user?.id}</h1>
+        <h1>Clerk User Id: {user?.id}</h1>
+        <h1>Clerk User Email: {user?.emailAddresses[0].emailAddress}</h1>
       </div>
     </div>
   )
