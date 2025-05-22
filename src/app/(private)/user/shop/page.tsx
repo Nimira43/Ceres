@@ -1,5 +1,6 @@
 import React from 'react'
 import { UserButton } from '@clerk/nextjs'
+import { currentUser } from '@clerk/nextjs/server'
 
 function UserShop() {
   return (
